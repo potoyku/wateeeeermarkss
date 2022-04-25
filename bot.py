@@ -89,26 +89,26 @@ async def SettingsBot(bot, cmd):
 		position_tag = "Top Left"
 
 	watermark_size = await db.get_size(cmd.from_user.id)
-	if int(watermark_size) == 5:
-		size_tag = "5%"
-	elif int(watermark_size) == 7:
-		size_tag = "7%"
-	elif int(watermark_size) == 10:
+	if int(watermark_size) == 10:
 		size_tag = "10%"
-	elif int(watermark_size) == 15:
-		size_tag = "15%"
 	elif int(watermark_size) == 20:
 		size_tag = "20%"
-	elif int(watermark_size) == 25:
-		size_tag = "25%"
 	elif int(watermark_size) == 30:
 		size_tag = "30%"
-	elif int(watermark_size) == 35:
-		size_tag = "35%"
 	elif int(watermark_size) == 40:
 		size_tag = "40%"
-	elif int(watermark_size) == 45:
-		size_tag = "45%"
+	elif int(watermark_size) == 50:
+		size_tag = "50%"
+	elif int(watermark_size) == 60:
+		size_tag = "60%"
+	elif int(watermark_size) == 70:
+		size_tag = "70%"
+	elif int(watermark_size) == 80:
+		size_tag = "80%"
+	elif int(watermark_size) == 90:
+		size_tag = "90%"
+	elif int(watermark_size) == 100:
+		size_tag = "100%"
 	else:
 		size_tag = "7%"
 	## --- Next --- ##
